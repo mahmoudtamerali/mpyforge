@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "mpyforge",
+            "cwd": "${workspaceFolder}\\..",
+            "args": [
+                "qstr",
+            //    "RPI_PICO-20260406-v1.28.0.uf2"
+                ".\\binaries_versions\\ESP32_GENERIC-20251209-v1.27.0.bin",
+            ]
+        }
+    ]
+}
